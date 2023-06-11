@@ -1,3 +1,4 @@
+
 body {
   font-family: "Helvetica";
   background-color: #f6f8fa;
@@ -6,6 +7,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: pistachio;
 }
 
 .header {
@@ -13,21 +15,29 @@ body {
 }
 
 .header__avatar {
+  height: 500px;
+  wight: 500px;
   border-radius: 50%;
 }
 
 .header__title {
   margin: 30px 0 10px 0;
-  font-size: 32px;
+  text-align: center;
+  font-size: 50px;
+  font-style: italic;
   line-height: 1.2;
   font-family: "Helvetica Neue";
+  color: purple;
 }
 
 .header__subtitle {
   color: #24292f;
-  font-size: 16px;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
   line-height: 1.4;
   margin: 0;
+  color: purple;
 }
 
 .links {
